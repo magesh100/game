@@ -21,8 +21,19 @@ else if( cc == "scissor" && uc =="rock"){
 else if( cc = "scissor"  &&  uc =="paper"){
   alert("computer won");
 }
+else if( cc == "paper" && uc =="paper"){
+  alert("it's tie");
+}
+else if( cc == "rock" && uc =="rock"){
+  alert("it's tie");
+}
+else if( cc == "scissor" && uc =="scissor"){
+  alert("it's tie");
+}
+
+
 else{
-  alert("tie");
+  alert("Please provide a valid input!");
 }
 
 
